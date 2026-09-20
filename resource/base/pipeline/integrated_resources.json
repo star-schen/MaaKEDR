@@ -1,0 +1,43 @@
+{
+  "IntegratedResources.Run": {
+    "recognition": "DirectHit",
+    "action": {
+      "type": "Custom",
+      "param": {
+        "custom_action": "IntegratedResourceFarm",
+        "custom_action_param": {
+          "team": 1
+        }
+      }
+    },
+    "timeout": 20000,
+    "next": [],
+    "on_error": [],
+    "pre_delay": 0,
+    "post_delay": 0
+  },
+  "IntegratedResources.Category.funds": {
+    "enabled": false,
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "next": []
+  },
+  "IntegratedResources.Category.physical": {
+    "enabled": false,
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "next": []
+  },
+  "IntegratedResources.Category.rating": {
+    "enabled": false,
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "next": []
+  },
+  "IntegratedResources.Category.vehicle": {
+    "enabled": false,
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "next": []
+  }
+}

@@ -67,6 +67,7 @@
     "import": [
         "./tasks/startup.json",
         "./tasks/farm_resources.json",
+        "./tasks/integrated_resources.json",
         "./tasks/farm_remaining_stamina.json",
         "./tasks/event_stage.json",
         "./tasks/pvp.json",
